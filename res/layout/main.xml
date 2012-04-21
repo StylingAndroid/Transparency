@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAA" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panel_height"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/panel_margin"
+            android:layout_marginRight="@dimen/panel_margin"
+            android:layout_marginTop="@dimen/panel_margin" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF" >
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7777" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_above="@+id/FrameLayout01"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7000" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_below="@+id/FrameLayout01"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7FFF" >
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panel_height"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/panel_margin"
+            android:layout_marginRight="@dimen/panel_margin"
+            android:layout_marginTop="@dimen/panel_margin"
+            android:background="@drawable/panel_gradient" >
+
+            <FrameLayout
+                android:id="@+id/gradientCentre"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7777" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_above="@id/gradientCentre"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7000" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_below="@id/gradientCentre"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="#7FFF" >
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panel_height"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/panel_margin"
+            android:layout_marginRight="@dimen/panel_margin"
+            android:layout_marginTop="@dimen/panel_margin" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#000" >
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFF" >
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout02"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/grey_alpha_gradient" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_above="@+id/FrameLayout02"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/black_alpha_gradient" >
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_below="@+id/FrameLayout02"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/white_alpha_gradient" >
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panel_height"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="@dimen/panel_margin"
+            android:layout_marginRight="@dimen/panel_margin"
+            android:layout_marginTop="@dimen/panel_margin"
+            android:background="@drawable/panel_gradient" >
+
+            <FrameLayout
+                android:id="@+id/colourCentre"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/grey_alpha_gradient" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_above="@id/colourCentre"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/black_alpha_gradient" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/overlay_height"
+                android:layout_below="@id/colourCentre"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/overlay_margin"
+                android:background="@drawable/white_alpha_gradient" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
