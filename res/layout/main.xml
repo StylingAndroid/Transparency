@@ -193,6 +193,49 @@
                 android:layout_margin="@dimen/overlay_margin"
                 android:background="@drawable/white_alpha_gradient" />
         </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/overlay_margin"
+            android:background="#FFF" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/salogo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#7000"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="6"
+                    android:text="Styling Android"
+                    android:textColor="#FFF"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A guide to applying styles and themes to Android apps"
+                    android:textColor="#CCC"
+                    android:textSize="12sp"/>
+                </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 
 </ScrollView>
