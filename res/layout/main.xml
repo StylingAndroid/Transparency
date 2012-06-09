@@ -276,6 +276,25 @@
                 android:textColor="#FFF"
                 android:textSize="36sp" />
         </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/panel_height"
+            android:layout_margin="@dimen/panel_margin"
+            android:background="@android:color/white" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/fadetop" />
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/fadebottom" />
+            </RelativeLayout>
     </LinearLayout>
 
 </ScrollView>
